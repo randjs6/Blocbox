@@ -67,6 +67,11 @@ p {
 		width: 1170px;
 	}
 }
+@media (min-width: 1600px) and (orientaion: landscape) {
+	.container {
+		width: 1570px;
+	}
+}
 
 /* HEADER */
 header {
