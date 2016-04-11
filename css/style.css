@@ -37,7 +37,7 @@ p {
 }
 .one-half, .one-third, .one-fourth {
 	width:96%;
-	float: left;
+	float:left;
 	position: relative;
 	min-height: 1px;
 	margin: 0 2% 20px;
