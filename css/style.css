@@ -67,7 +67,6 @@ p {
 		width: 1170px;
 	}
 }
-@media tv and (min-width: 700px) and (orientation: landscape)
 
 /* HEADER */
 header {
