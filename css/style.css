@@ -68,6 +68,9 @@ p {
 	.one-fourth {
 		width: 21%;
 	}
+	.staggered {
+		width: 21%;
+	}
 }
 @media (min-width: 1200px) {
 	.container {
