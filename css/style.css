@@ -47,7 +47,8 @@ p {
 	float:left;
 	position: relative;
 	min-height: 1px;
-	margin: 20px 2% 20px;
+	margin: 0 2% 20px;
+	padding-top: 20px;
 }
 
 @media (min-width: 768px) {
