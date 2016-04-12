@@ -43,6 +43,8 @@ p {
 	margin: 0 2% 20px;
 }
 .staggered {
+	width:96%;
+	float: left;
 	position: relative;
 	margin-top: 20px;
 }
