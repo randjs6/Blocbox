@@ -42,7 +42,7 @@ p {
 	min-height: 1px;
 	margin: 0 2% 20px;
 }
-.staggered {
+.one-fourth .staggered {
 	position: relative;
 	margin: 0 2% -20px;
 }
@@ -289,7 +289,6 @@ header .hero img {
 	font-size:13px;
 	margin-top: 30px;
 }
-.testimonials 
 
 /* FOOTER */
 footer {
