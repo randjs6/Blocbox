@@ -46,6 +46,7 @@ p {
 	width:96%;
 	float: left;
 	position: relative;
+	min-height: 1px;
 	margin-top: 20px;
 }
 
