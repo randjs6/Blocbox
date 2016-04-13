@@ -338,13 +338,14 @@ footer .logo {
 	}
 	footer p, footer nav ul {
 		padding: 2em 0;
+		padding-bottom: 20px;
 		text-align: left;
 	}
 	footer .right-footer-block {
 		background-color: #3498DB;
 	}
 	footer .logo{
-		padding: 2em 0 4em 1.5em;
+		padding: 2em 0 2em 1.5em;
 	}
 }
 .another {
