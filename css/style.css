@@ -329,6 +329,13 @@ footer .logo {
 	margin: 0 auto;
 	display: block;
 }
+
+@media (min-width: 320px) {
+		.footer {
+			width: 320px;
+		}	
+}
+
 @media (min-width: 992px) {
 	footer{
 		background-color: #3498DB;
