@@ -338,7 +338,7 @@ footer .logo {
 	}
 	footer p, footer nav ul {
 		padding: 2em 0;
-		padding-bottom: 20px;
+		padding-bottom: -20px;
 		text-align: left;
 	}
 	footer .right-footer-block {
