@@ -311,7 +311,7 @@ footer p, footer nav ul {
 	font-size:14px;
 	font-weight:100;
 	text-align: center;
-	margin: 0px auto 0;
+	margin: -30px auto 0;
 }
 footer nav ul li {
 	list-style-type: none;
