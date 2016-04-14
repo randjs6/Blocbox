@@ -329,7 +329,7 @@ footer .logo {
 	margin: 0 auto;
 	display: block;
 	margin-left: 50px;
-	margin-bottom: -50px;
+	margin-bottom: 50px;
 }
 
 @media (min-width: 992px) {
