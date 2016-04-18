@@ -363,6 +363,7 @@ footer .logo {
 .left-nav {
 	height: 100%;
 	width:280px;
+	background:#34495E;
 	position: absolute;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
