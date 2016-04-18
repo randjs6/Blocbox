@@ -403,6 +403,9 @@ footer .logo {
 	width:16px;
 	text-align: center;
 	margin-right:8px;
+} 
+.left-nav .active ul li a i {
+	background-color:#22894E;
 }
 
 /* LEFT NAVBAR SETTINGS */
