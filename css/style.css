@@ -404,7 +404,7 @@ footer .logo {
 	text-align: center;
 	margin-right:8px;
 } 
-.left-nav .active ul li a i {
+.left-nav li.active  {
 	background-color:#22894E;
 }
 
