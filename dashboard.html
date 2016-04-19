@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/dropit.css">
+	<link rel="stylesheet" href="css/settingsdropit.css">
 
 	</head>
 <body class="dashboard">
@@ -137,8 +138,15 @@
  <script src="js/dropit.js"></script>
  <script type="text/javascript">
  	$(".menu").dropit();
- 	$(".account").dropit();
  	$( "#menu" ).click(function(){
+ 		$("#left-nav").toggleClass("open", 200);
+ 	});
+ </script>
+ <script src="js/jquery-2.2.3.min.js"></script>
+ <script src="js/dropit.js"></script>
+ <script type="text/javascript">
+ 	$(".account").settingsdropit();
+ 	$( "#account" ).click(function(){
  		$("#left-nav").toggleClass("open", 200);
  	});
  </script>		 	                      
