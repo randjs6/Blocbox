@@ -69,8 +69,8 @@
 }
 .account .account-trigger { position: relative; }
 .account .account-submenu {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
