@@ -1,13 +1,13 @@
 /** Settings Drop Down **/
-.dropit {
+.settingsdropit {
     list-style: none;
     padding: 0;
     margin: 15px 0 0;
     float:right;
     display:inline-block;
 }
-.dropit .dropit-trigger { position: relative; }
-.dropit .dropit-submenu {
+.settingsdropit .settingsdropit-trigger { position: relative; }
+.settingsdropit .settingsdropit-submenu {
     position: fixed;
     bottom: 0;
     right: 0; /* dropdown left or right */
@@ -18,13 +18,13 @@
     padding: 20px;
     margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu { 
+.settingsdropit .settingsdropit-open .settingsdropit-submenu { 
     display: block;
     background:#FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
     border-radius: 4px;
      }
-.dropit .dropit-open .dropit-submenu:after {
+.settingsdropit .settingsdropit-open .settingsdropit-submenu:after {
     content: " ";
     position: absolute;
     border-style: solid;
@@ -36,14 +36,14 @@
     top: -8px;
     right: 10px;
 }    
-.dropit .dropit-open .dropit-submenu li {
+.settingsdropit .settingsdropit-open .settingsdropit-submenu li {
     display: block;
     margin-bottom: 20px;
 } 
-.dropit .dropit-open .dropit-submenu li:last-child {
+.settingsdropit .settingsdropit-open .settingsdropit-submenu li:last-child {
     margin-bottom: 0px;
 }
-.dropit .dropit-open .dropit-submenu li a {
+.settingsdropit .settingsdropit-open .settingsdropit-submenu li a {
     color:#34495E;
     text-decoration: none;
     font-family: "Lato", Helvetica, Arial, sans-serif;
