@@ -58,3 +58,55 @@
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight:100;
 }
+
+/** Settings **/
+.settingsdropit {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    float:right;
+    display:inline-block;
+}
+.settingsdropit .settingsdropit-trigger { position: relative; }
+.settingsdropit .settingsdropit-submenu {
+    position: absolute;
+    top: -180;
+    right: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 145px;
+    list-style: none;
+    padding: 20px;
+    margin: 20px 0 0;
+}
+.settingsdropit .settingsdropit-open .settingsdropit-submenu { 
+    display: block;
+    background:#FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+    border-radius: 4px;
+     }
+.settingsdropit .settingsdropit-open .settingsdropit-submenu:after {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -8px;
+    right: 10px;
+}    
+.settingsdropit .settingsdropit-open .settingsdropit-submenu li {
+    display: block;
+    margin-bottom: 20px;
+} 
+.settingsdropit .settingsdropit-open .settingsdropit-submenu li:last-child {
+    margin-bottom: 0px;
+}
+.settingsdropit .settingsdropit-open .settingsdropit-submenu li a {
+    color:#34495E;
+    text-decoration: none;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight:100;
+}
