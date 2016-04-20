@@ -10,6 +10,7 @@
 .settingsdropit .settingsdropit-submenu {
     position: absolute;
     bottom: 100%;
+    transform: rotate(180deg);
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
@@ -27,7 +28,6 @@
 .settingsdropit .settingsdropit-open .settingsdropit-submenu:after {
     content: " ";
     position: absolute;
-    bottom:100%;
     border-style: solid;
     border-width: 0 8px 8px;
     border-color: #FFFFFF transparent;
