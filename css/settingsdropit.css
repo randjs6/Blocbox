@@ -10,11 +10,10 @@
 .settingsdropit .settingsdropit-submenu {
     position: absolute;
     bottom: 100%;
-    transform: rotate(180deg);
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 145px;
+    min-width: 100px;
     list-style: none;
     padding: 20px;
     margin: 20px 0 0;
