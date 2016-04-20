@@ -10,8 +10,8 @@
 }
 .settingsdropit .settingsdropit-trigger { position: relative; }
 .settingsdropit .settingsdropit-submenu {
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 1em;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
