@@ -9,14 +9,14 @@
 .settingsdropit .settingsdropit-trigger { position: relative; }
 .settingsdropit .settingsdropit-submenu {
     position: absolute;
-    bottom: 100%;
+    top: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
     min-width: 100px;
     list-style: none;
     padding: 20px;
-    margin: 20px 0 0;
+    margin: -120px 0 0;
 }
 .settingsdropit .settingsdropit-open .settingsdropit-submenu { 
     display: block;
@@ -33,7 +33,7 @@
     display: block;
     width: 0;
     z-index: 1;
-    top: -8px;
+    top: 8px;
     right: 10px;
 }    
 .settingsdropit .settingsdropit-open .settingsdropit-submenu li {
