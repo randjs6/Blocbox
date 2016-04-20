@@ -468,7 +468,7 @@ footer .logo {
 	position:fixed;
 	background:#22303E;
 	width:100%;
-	bottom:100%;
+	bottom:0;
 	left:0;
 	right:0;
 	padding:10px 0;
