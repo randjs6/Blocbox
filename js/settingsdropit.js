@@ -51,7 +51,7 @@
                     // Close if outside click
                     $(document).on('click', function(){
                         settings.beforeHide.call(this);
-                        $('.settingsdropit-open').removeClass('dropit-open').find('.settingsdropit-submenu').hide();
+                        $('.settingsdropit-open').removeClass('settingsdropit-open').find('.settingsdropit-submenu').hide();
                         settings.afterHide.call(this);
                     });
 
@@ -59,7 +59,7 @@
                     if(settings.action == 'mouseenter'){
                         $el.on('mouseleave', '.settingsdropit-open', function(){
                             settings.beforeHide.call(this);
-                            $(this).removeClass('dropit-open').find(settings.submenuEl).hide();
+                            $(this).removeClass('settingsdropit-open').find(settings.submenuEl).hide();
                             settings.afterHide.call(this);
                         });
                     }
