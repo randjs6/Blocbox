@@ -11,6 +11,7 @@
 .settingsdropit .settingsdropit-trigger { position: relative; }
 .settingsdropit .settingsdropit-submenu {
     position: absolute;
+    top:0px;
     bottom: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
