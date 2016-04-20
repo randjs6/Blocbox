@@ -6,10 +6,10 @@
     float:right;
     display:inline-block;
 }
-.settingsdropit .settingsdropit-trigger { position: fixed; }
+.settingsdropit .settingsdropit-trigger { position: relative; }
 .settingsdropit .settingsdropit-submenu {
-    position: absolute;
-    bottom: 100%;
+    position: fixed;
+    bottom: 0px;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
