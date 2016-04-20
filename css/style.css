@@ -465,7 +465,7 @@ footer .logo {
 
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
-	position:fixed;
+	position:absolute;
 	background:#22303E;
 	width:100%;
 	bottom:0;
