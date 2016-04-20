@@ -9,16 +9,16 @@
 
 ;(function($) {
 
-    $.fn.settingsdropit = function(method) {
+    $.fn.account = function(method) {
 
         var methods = {
 
             init : function(options) {
-                this.settingsdropit.settings = $.extend({}, this.settingsdropit.defaults, options);
+                this.account.settings = $.extend({}, this.account.defaults, options);
                 return this.each(function() {
                     var $el = $(this),
                          el = this,
-                         settings = $.fn.settingsdropit.settings;
+                         settings = $.fn.account.settings;
 
                     // Hide initial submenus
                     $el.addClass('settingsdropit')
@@ -37,7 +37,7 @@
 
                         // Hide open menus
                         settings.beforeHide.call(this);
-                        $('.settingsdropit-open').removeClass('settingsdropit-open').find('.settingsdropit-submenu').hide();
+                        $('.account-open').removeClass('settingsdropit-open').find('.account-submenu').hide();
                         settings.afterHide.call(this);
 
                         // Open this menu
@@ -51,13 +51,13 @@
                     // Close if outside click
                     $(document).on('click', function(){
                         settings.beforeHide.call(this);
-                        $('.settingsdropit-open').removeClass('settingsdropit-open').find('.settingsdropit-submenu').hide();
+                        $('.account-open').removeClass('settingsdropit-open').find('.account-submenu').hide();
                         settings.afterHide.call(this);
                     });
 
                     // If hover
                     if(settings.action == 'mouseenter'){
-                        $el.on('mouseleave', '.settingsdropit-open', function(){
+                        $el.on('mouseleave', '.account-open', function(){
                             settings.beforeHide.call(this);
                             $(this).removeClass('settingsdropit-open').find(settings.submenuEl).hide();
                             settings.afterHide.call(this);
@@ -80,7 +80,7 @@
 
     };
 
-    $.fn.settingsdropit.defaults = {
+    $.fn.account.defaults = {
         action: 'click', // The open action for the trigger
         submenuEl: 'ul', // The submenu element
         triggerEl: 'a', // The trigger element
@@ -92,6 +92,6 @@
         afterHide: function(){} // Triggers before submenu is hidden
     };
 
-    $.fn.settingsdropit.settings = {};
+    $.fn.account.settings = {};
 
 })(jQuery);
