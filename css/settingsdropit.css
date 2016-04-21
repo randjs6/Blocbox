@@ -23,9 +23,20 @@
     background:#FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
     border-radius: 4px;
-    z-index:1000;
+    qborder:1px solid red;
 }
 .settingsdropit .settingsdropit-open .settingsdropit-submenu:after {
+    qcontent: " ";
+    qposition: absolute;
+    qborder-style: solid;
+    qborder-width: 0 8px 8px;
+    qborder-color: #FFFFFF transparent;
+    qdisplay: block;
+    qwidth: 0;
+    qz-index: 1;
+    qbottom: 8px;
+    qright: 10px;
+
     content: " ";
     position: absolute;
     border-style: solid;
@@ -49,4 +60,6 @@
     text-decoration: none;
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight:100;
+    qborder: 1px solid red;
+    float:left;
 }
