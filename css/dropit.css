@@ -16,6 +16,7 @@
     display:inline-block;
 }
 .dropit .dropit-trigger { position: relative; }
+
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
@@ -27,12 +28,20 @@
 	padding: 20px;
 	margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu { 
+.dropit .account-settings.dropit-submenu {
+    position: absolute;
+    top: -420%;
+}
+
+.dropit .dropit-open .dropit-submenu { display:block; }
+
+.dropit .dropit-open .dropit-submenu {
     display: block;
     background:#FFFFFF;
     box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
     border-radius: 4px;
-     }
+}
+
 .dropit .dropit-open .dropit-submenu:after {
     content: " ";
     position: absolute;
@@ -44,6 +53,10 @@
     z-index: 1;
     top: -8px;
     right: 10px;
+}
+.dropit .dropit-open .account-settings.dropit-submenu:after {
+    border-width: 8px 8px 0;
+    top: 130px;
 }    
 .dropit .dropit-open .dropit-submenu li {
     display: block;
