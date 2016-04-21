@@ -9,7 +9,7 @@
 .settingsdropit .settingsdropit-trigger { position: relative; }
 .settingsdropit .settingsdropit-submenu {
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
@@ -35,7 +35,7 @@
   qz-index: 1;
   qbottom: 8px;
   qright: 10px;
-  
+
     content: " ";
     position: absolute;
     border-style: solid;
